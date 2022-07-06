@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+	</head>
+	<body>  
+<div class="contaier">
+<div class="row">
+	<h1 class="">Register Yourself !!</h1>
+	<br/>
+</div>
+<form>  
+	<div class="col-md-12">
+	<div class="row">
+		<p class="text-light">Enter Email- Id:</p>
+		<input type="text" id="email" name="number" placeholder="Enter Email Id"/>
+	</div>
+	<div class="row">
+		<p class="text-light">Enter User Name:</p>
+		<input type="text" id="email" name="number" placeholder="Enter Email Id"/>
+	</div>
+	<!-- <div class="row">
+		<p class="text-light">Select Gender:</p>
+		<input type="text" id="email" name="number" placeholder="Enter Email Id"/>
+	</div>
+	<div class="row">
+		<p class="text-light">Enter Date Of Birth:</p>
+		<input type="text" id="email" name="number" placeholder="Enter Email Id"/>
+	</div> -->
+
+	<div class="row">
+		<p class="text-light">Enter Password:</p>
+		<input type="text" id="Password" name="Password" placeholder="Enter Password  :">
+	</div>
+	<div class="row">
+		<p class="text-light">Confirm Password :</p>
+		<input type="text" id="Password1" name="Password" placeholder="Enter Password  :">
+	</div>
+
+	<div class="row">
+		<input type="button" name="Register" value="Register" class="btn-block">
+	</div>
+	<div class="row">
+		<a href="/login.html">
+			<input type="button" class="btn btn-primary btn-block btn-large"  value="Retrun To Home Page"/>  </a>
+	</div>
+	</div>
+</form>  
+</div>
+
+<script type="text/javascript">  
+function pwdCheck(){  
+var num1=document.getElementById("Password").value;  
+var num2=document.getElementById("Password1").value;  
+if(num1=num2)
+{
+alert("Registration Successfull...!")
+}
+else
+{
+alert("Failed, Password does not match");  
+}
+}  
+</script>
+</body>
+</html>
